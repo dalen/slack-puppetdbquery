@@ -18,10 +18,9 @@
     "email": "erik.gustav.dalen@gmail.com"
   },
   "license": "Apache v2",
-  "config": {
-    "token": "lSq4h4mYu4XRaq79itrQp9Im",
-    "url": "http://localhost:8080/",
-    "limit": 50,
-    "port": 3000
-  }
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/dalen/slack-puppetdbquery.git"
+  },
+  "homepage": "https://github.com/dalen/slack-puppetdbquery"
 }
