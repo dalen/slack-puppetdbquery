@@ -13,6 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 app.post '/', (req, res) ->
   unless req.param('token') == config.token
+    console.log "Token mismatch, got #{req.param('token')}"
     res.status(403).send("Wrong token")
   else
     queryString = req.param('text').slice(req.param('trigger_word').length+1)
