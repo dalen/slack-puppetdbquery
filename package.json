@@ -1,0 +1,27 @@
+{
+  "name": "slack-puppetdbquery",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "./app.coffee"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "express": "^4.9.8",
+    "node-puppetdbquery": "^0.4.2",
+    "sync-request": "^1.0.1"
+  },
+  "description": "PuppetDB query for Slack",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": {
+    "name": "Erik Dalen",
+    "email": "erik.gustav.dalen@gmail.com"
+  },
+  "license": "Apache v2",
+  "config": {
+    "token": "lSq4h4mYu4XRaq79itrQp9Im",
+    "url": "http://localhost:8080/",
+    "limit": 50,
+    "port": 3000
+  }
+}
